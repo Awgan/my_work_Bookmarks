@@ -30,6 +30,9 @@ body
 	background-color: #9c4b58;
 	text-align: center;
 	padding: 2px;
+	position: sticky;
+	top: 0;
+	z-index: 200;
 }
 
 .bars
@@ -49,7 +52,7 @@ body
 	padding:0;
 	margin:0;
 	display: inline-block;
-	position: fixed;
+	position: relative;
 	z-index: 100;
 }
 
@@ -118,7 +121,7 @@ body
 #tools > ul
 {
 	display: inline-block;
-	position: fixed;
+	position: relative;
 	z-index: 90;
 }
 
@@ -129,11 +132,35 @@ body
 
 #relax
 {
-	width:520px;
-	height:100px;
-	background-color:#707389;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
-	padding:10px;
+
+}
+
+#relax > ul
+{
+	display: inline-block;
+	position: relative;
+	z-index: 80;
+}
+
+
+#relax_i
+{
+	background-color: #822737;
+}
+
+#switches
+{
+	width: 960px;
+}
+
+#switches > ul
+{
+	display: inline-block;
+	position: relative;
+	z-index: 70;
+}
+
+#switch_i
+{
+	background-color: #b4840b;
 }
