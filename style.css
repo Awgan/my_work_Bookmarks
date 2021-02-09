@@ -1,0 +1,139 @@
+body
+{
+	background-color: black;
+}
+
+#main_div
+{
+	background-color: grey;
+	width: 1000px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main_div  a
+{
+	color: white;
+	text-decoration: none;
+
+
+}
+
+#main_div  a:hover
+{
+	color: red;
+}
+
+#logo
+{
+	background-color: #9c4b58;
+	text-align: center;
+	padding: 2px;
+}
+
+.bars
+{
+	width:640px;
+	height:100px;
+	background-color:#1c4149;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding:10px;
+}
+
+.bars > ul
+{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	display: inline-block;
+	position: fixed;
+	z-index: 100;
+}
+
+.dostawcy_i
+{
+	float:left;
+
+	background-color:#257581;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:1px;
+	margin-bottom:1px;
+	color:white;
+	text-align:center;
+	transition:1.0s;
+}
+
+.bars > ul > li > ul
+{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+
+}
+
+.bars > ul > li > ul > li
+{
+	background-color:#257581;
+	border-top: 1px solid #000000;
+	display: none;
+	list-style-type: none;
+}
+
+.bars > ul > li a
+{
+	display: block;
+	height: 70px;
+	width: 130px;
+	padding-top: 30px;
+	font-size: 14px;
+}
+
+.bars > ul > li:hover > ul > li
+{
+	display: block;
+	height: 50px;
+}
+
+.bars > ul > li:hover > ul > li a
+{
+	padding-top: 10px;
+}
+
+.bars > ul > li > ul > li:hover
+{
+	background-color:#6b969c;
+
+}
+
+
+#tools
+{
+
+}
+
+#tools > ul
+{
+	display: inline-block;
+	position: fixed;
+	z-index: 90;
+}
+
+#tools_i
+{
+	background-color: #436512;
+}
+
+#relax
+{
+	width:520px;
+	height:100px;
+	background-color:#707389;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding:10px;
+}
